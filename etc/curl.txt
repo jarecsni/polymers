@@ -1,0 +1,3 @@
+1. create a new polymer component
+curl -X POST -H "Content-Type: application/json" -d '{"name":"FooComponent", "githubshorthand":"jarecsni/foo-component",
+"description":"A wonderfully simple Foo implementation using the Polymer magic", "author" : "Little Janos"}' localhost:8080/api/polymer-components
